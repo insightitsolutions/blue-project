@@ -21,8 +21,8 @@ fontObj = pygame.font.Font('freesansbold.ttf', 32)
 msg = 'Hover over red squares to get points.'
 
 #plays music
-#pygame.mixer.music.load('music.mp3')
-#pygame.mixer.music.play(-1)
+pygame.mixer.music.load('music.mp3')
+pygame.mixer.music.play(-1)
 
 while True:
     windowSurfaceObj.fill(whiteColor)
